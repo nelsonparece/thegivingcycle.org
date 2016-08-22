@@ -1,0 +1,90 @@
+	<div class="contact-form">
+        <h1>Contact Us</h1>
+		<form id="contact-form" method="POST" action="form-to-email.php">
+
+			<div class="control-group">
+				<label>Your Name</label>
+				<input class="fullname" type="text" name="fullname" />
+			</div>
+
+			<div class="control-group">
+				<label>Email</label>
+				<input class="email" type="text" name="email" />
+			</div>
+
+			<div class="control-group">
+				<label>Phone (optional)</label>
+				<input class="phone" type="text" name="phone" />
+			</div>
+
+			<div class="control-group">
+				<label>Message</label>
+				<textarea class="message" name="message"></textarea>
+			</div>
+
+			<div id="errors"></div>
+
+			<div class="control-group no-margin">
+				<input type="submit" name="submit" value="Submit" id="submit" />
+			</div>
+
+		</form>
+        <div id='msg_submitting'><h2>Submitting ...</h2></div>
+        <div id='msg_submitted'><h2>Thank you !<br> The form was submitted Successfully.</h2></div>
+	</div>
+	</div>
+
+
+	<!-- JavaScript Files -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/additional-methods.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- End JavaScript Files -->
+
+			<p>&nbsp;</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-md-4" style="vertical-align: bottom;">
+				<a href="about.php"><img src="http://thegivingcycle.org/images/About25.png" alt=""></a>
+				<p>&nbsp;</p>
+				<a href="about.php"><B style="color: white;">ABOUT</B></a><br>
+				<p>&nbsp;</p>
+			</div>
+			<div class="col-sm-4 col-md-4" style="vertical-align: bottom;">
+				<a href="connect.php"><img src="http://thegivingcycle.org/images/Connect25.png" alt=""></a>
+				<p>&nbsp;</p>
+				<a href="connect.php"><B style="color: white;">CONNECT</B><br>
+				<p>&nbsp;</p>
+			</div>
+			<div class="col-sm-4 col-md-4" style="vertical-align: bottom;">
+				<a href="gain.php"><img src="http://thegivingcycle.org/images/Gain25.png" alt=""></a>
+				<p>&nbsp;</p>
+				<a href="gain.php"><B style="color: white;">GAIN</B></a><br>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+			<p>&nbsp;</p>
+			</div>
+		</div>
+		<div class="row" style="background-color: white;">
+			<div class="col-xs-12 col-md-12">
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			Copyright &copy; 2016 Victory In Giving, LLC | All rights reserved
+			<p>&nbsp;</p>
+		</div>
+	</div>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+
+</BODY>
+</HTML>

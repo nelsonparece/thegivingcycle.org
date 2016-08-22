@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset=utf-8> 
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+<!-- other head tags, scripts, etc. -->
+<?php
+if (isset($_SERVER['HTTP_USER_AGENT']) &&
+    (strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false))
+        header('X-UA-Compatible: IE=edge,chrome=1');
+?>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
+
+<TITLE>The Giving Cycle</TITLE>
+<!--link href="CSS/style.css" rel="stylesheet"-->
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<script src="js/bootstrap.min.js"></script>
+<STYLE>
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+</style>
+	<style>
+		.easyhtml5video {
+			margin: 0 auto;
+		}
+	</style>
+</HEAD>
+
+<BODY>
+<div class="mycontainer">
+	<div class="mycontainer1">
+		<div class="row">
+			<div class="col-xs-12 col-md-12">
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+<?php
+include ("inc/nav.inc");
+?>
+			<p>&nbsp;</p>
+			<img src="http://thegivingcycle.org/images/The-Giving-Cycle.png" alt="" class="responsive-image" />
+			<p>&nbsp;</p>
+		<div class="col-sm-4 col-md-4" style="vertical-align: bottom";>
+			<a href="about.php"><img src="http://thegivingcycle.org/images/About25.png" alt="" /></a>
+		</div>
+		<div class="col-sm-4 col-md-4" style="vertical-align: bottom";>
+			<a href="connect.php"><img src="http://thegivingcycle.org/images/Connect25.png" alt="" /></a>
+		</div>
+		<div class="col-sm-4 col-md-4" style="vertical-align: bottom";>
+			<a href="gain.php"><img src="http://thegivingcycle.org/images/Gain25.png" alt="" /></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+<!-- Start EasyHtml5Video.com BODY section -->
+<style type="text/css">.easyhtml5video .eh5v_script{display:none}</style>
+<div class="easyhtml5video" style="position:relative;max-width:1280px;"><video controls="controls"  autoplay="autoplay" poster="index.files/html5video/givingcyclevideo.jpg" style="width:100%" title="givingcyclevideo">
+<source src="index.files/html5video/givingcyclevideo.m4v" type="video/mp4" />
+<source src="index.files/html5video/givingcyclevideo.webm" type="video/webm" />
+<source src="index.files/html5video/givingcyclevideo.ogv" type="video/ogg" />
+</video>
+</div>
+<script src="index.files/html5video/html5ext.js" type="text/javascript"></script>
+<!-- End EasyHtml5Video.com BODY section -->
+		</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12 col-md-4 mycontainer1" style="vertical-align: bottom";>
+			<p>&nbsp;</p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-md-12">
+		<p>&nbsp;</p>
+		</div>
+	</div>
+</div>
+<div class="row" style="background-color: white;">
+	<div class="col-xs-12 col-md-12">
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		Copyright &copy; 2016 Victory In Giving, LLC | All rights reserved
+		<p>&nbsp;</p>
+	</div>
+    </div>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+}
+</script>
+
+</BODY>
+</HTML>

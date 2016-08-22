@@ -1,0 +1,264 @@
+<style type="text/css">
+
+html { 
+background: url(Images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover
+}
+
+body {
+background: url(Images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #000000;
+font-family: times new roman, times, georgia, serif;
+}
+/**
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+**/
+
+.mycontainer {
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	text-align: center;
+	margin: auto;
+	background-color: #000000;
+}
+.mycontainer1 {
+	width: 80%;
+	height: auto;
+	max-width: 90%;
+	margin: auto;
+	position: relative;
+	box-sizing: border-box;
+	//border: #ff0000 solid 5px;
+}
+.mycontainer2 {
+	width: 320px;
+	height: auto;
+	max-width: 95%;
+	margin: auto;
+	position: relative;
+	box-sizing: border-box;
+	//border: #ff0000 solid 5px;
+}
+
+.responsive-image {
+	height: auto;
+	width: 100%;
+}
+body, div, p {
+	font-family: times new roman, times, georgia, serif;
+}
+.p-justify {
+	text-align: justify;
+	margin-top: 1em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	font-size: 1.25em;
+	color: white;
+}
+.p-center {
+	text-align: center;
+	margin-top: 1em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	margin-left: 3em;
+	font-size: 1.25em;
+	color: white;
+}
+
+.easyhtml5video {
+	margin: 0 auto;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #111;}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+@media all and (max-width:900px){
+	#main{
+		width: 100%;
+		overflow:hidden;
+	}
+	#header, #navigation-bar, #article-box{
+		width:100%;
+	}
+	#header{
+		background-repeat:no-repeat;
+		background-size: 100% 80px;
+		height:80px;
+	}
+	#content{
+		width:65%;
+		box-sizing: border-box;
+		padding:20px;
+		overflow:hidden;
+		margin:0px;
+	}
+	#right-column{
+		width:35%;
+		box-sizing: border-box;
+		padding:20px;
+		text-align:center;
+		overflow:hidden;
+	}
+	#autoresponder-box , .right-box{
+		width: 95%;
+		margin:0px; 
+		padding:20px;
+		box-sizing: border-box;
+		
+	}
+	div {
+		display: block;
+	}
+}
+
+@media all and (max-width:769px){
+	#content{
+		width:100%;
+	}
+	#right-column {
+		width: 100%;
+	}
+	#autoresponder-box , .right-box{
+		width:100%;
+	}
+	#footer{
+		height: auto;
+	}
+	#footer a{
+		margin:10px;
+		display: inline-block;
+		
+	}
+	#navigation-bar ul{
+		display:none;
+		text-align:center;
+		background:#302121;
+	}
+	.nav_toggle a{
+		display: block;
+		color: rgb(255, 255, 255);
+		text-decoration: none;
+		font-size: 30px;
+		line-height: 40px;
+		padding: 10px;
+	}
+	#navigation-bar ul li{
+		float:none; 
+		display:block; 
+		width:100%;
+	}
+	#navigation-bar ul li a{
+		border-right:none; 
+		padding:10px;
+		float:none;
+	}
+	iframe {
+		width: 100%;
+		max-width: 500px;
+		height: 300px;
+	}
+	#content #contact{
+		width:100%;
+	}
+	div {
+		display: block;
+	}
+	.responsive-image {
+		height: auto;
+		width: 70%;
+	}
+	.p-justify {
+		text-align: left;
+		margin-top: 1em;
+		margin-right: 3em;
+		margin-bottom: 1em;
+		margin-left: 3em;
+		font-size: 1.2em;
+		color: white;
+	}
+}
+
+@media all and (min-width:769px){
+	.nav_toggle{
+		display:none;
+	}
+	div {
+		display: block;
+	}
+}
+
+</style>
